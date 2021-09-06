@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+.App>img{
+  width: 50%;
+}
+@media screen and (max-width: 44em) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+  }
+  .App>img{
+    width: 100%;
+  }
+}

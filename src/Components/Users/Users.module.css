@@ -1,0 +1,35 @@
+.Users {
+  height: 100%;
+  margin: auto;
+  padding: 1rem;
+  padding-top: 8rem;
+  width: 80%;
+
+  max-height: 50rem;
+  overflow: auto;
+
+  /* position: relative; */
+}
+.Logout {
+  border: 1px solid #61acb3;
+  color: #61acb3;
+  padding: 0.6rem 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  /* text-align: right; */
+}
+.UserData {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-top: 1px solid #61acb3;
+  width: 100%;
+}
+.UserData:last-child {
+  border-bottom: 1px solid #61acb3;
+}
+.Data {
+  color: #61acb3;
+}

@@ -1,0 +1,11 @@
+.Auth {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+@media screen and (max-width: 44em) {
+  .Auth {
+    width: 100%;
+  }
+}
