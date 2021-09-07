@@ -80,8 +80,8 @@ function Auth() {
           <Register registerSubmit={createAccount} />
         </Route>
         {isAuth ? (
-          <Route path="/users" logout={logoutHandler} exact>
-            <Users users={users} />
+          <Route path="/users" exact>
+            <Users users={users} logout={logoutHandler} />
           </Route>
         ) : null}
 
